@@ -55447,7 +55447,7 @@ function($ionicLoadingConfig, $ionicBody, $ionicTemplateLoader, $ionicBackdrop, 
   var deregisterBackAction = noop;
   var deregisterStateListener1 = noop;
   var deregisterStateListener2 = noop;
-  var loadingShowDelay = $q.when();
+  var loadingShowDelay = null;
 
   return {
     /**
